@@ -1,0 +1,464 @@
+﻿Item Crafted,Item Worked,Number Required
+Titanium,Metal Salvage,1
+Acid Mushroom,Acid Mushroom Spore,1
+Bloodvine,Blood Oil,1
+Blue Palm,Blue Palm Seed,1
+Bulb Bush,Bulb Bush Sample,1
+Cave Bush,Cave Bush Seed,1
+Creepvine,Creepvine Seed Cluster,1
+Deep Shroom,Deep Shroom Spore,1
+Eye Stalk,Eye Stalk Seed,1
+Furled Papyrus,Furled Papyrus Seed,1
+Gabe's Feather,Gabe's Feather Seed,1
+Gel Sack,Gel Sack Spore,1
+Ghost Weed,Ghost Weed Seed,1
+Jellyshroom,Jellyshroom Spore,1
+Membrain Tree,Membrain Tree Seed,1
+Pygmy Fan,Pygmy Fan Seed,1
+Redwort,Redwort Seed,1
+Regress Shell,Regress Shell Seed,1
+Rouge Cradle,Rouge Cradle Seed,1
+Sea Crown,Sea Crown Seed,1
+Spiked Horn Grass,Spiked Horn Grass Seed,1
+Spotted Dockleaf,Spotted Dockleaf Seed,1
+Tiger Plant,Tiger Plant Seed,1
+Veined Nettle,Veined Nettle Seed,1
+Violet Beau,Violet Beau Seed,1
+Writhing Weed,Writhing Weed Seed,1
+Bulbo Tree,Bulbo Tree Sample,1
+Chinese Potato Plant,Chinese Potato,1
+Fern Palm,Fern Palm Seed,1
+Grub Basket,Grub Basket Seed,1
+Jaffa Cup,Jaffa Cup Seed,1
+Lantern Tree,Lantern Fruit,1
+Small Marblemelon,Marblemelon Seed,1
+Marblemelon,Marblemelon Seed,1
+Ming Plant,Ming Plant Seed,1
+Pink Cap,Pink Cap Spore,1
+Speckled Rattler,Speckled Rattler Spore,1
+Voxel Shrub,Voxel Shrub Seed,1
+Ampeel,Ampeel Egg,1
+Boneshark,Boneshark Egg,1
+Crabsnake,Crabsnake Egg,1
+Crabsquid,Crabsquid Egg,1
+Crashfish,Crashfish Egg,1
+Cuddlefish,Cuddlefish Egg,1
+Gasopod,Gasopod Egg,1
+Jellyray,Jellyray Egg,1
+Lava Lizard,Lava Lizard Egg,1
+Mesmer,Mesmer Egg,1
+Rabbit Ray,Rabbit Ray Egg,1
+Sand Shark,Sand Shark Egg,1
+Spadefish,Spadefish Egg,1
+Stalker,Stalker Egg,1
+Filtered Water,Bladderfish,1
+Disinfected Water,Bleach,2
+Cooked Bladderfish,Bladderfish,1
+Cooked Boomerang,Boomerang,1
+Cooked Eyeye,Eyeye,1
+Cooked Garryfish,Garryfish,1
+Cooked Holefish,Holefish,1
+Cooked Hoopfish,Hoopfish,1
+Cooked Hoverfish,Hoverfish,1
+Cooked Magmarang,Magmarang,1
+Cooked Oculus,Oculus,1
+Cooked Peeper,Peeper,1
+Cooked Red Eyeye,Red Eyeye,1
+Cooked Reginald,Reginald,1
+Cooked Spadefish,Spadefish,1
+Cooked Spinefish,Spinefish,1
+Cured Bladderfish,Bladderfish,1
+Cured Boomerang,Boomerang,1
+Cured Eyeye,Eyeye,1
+Cured Garryfish,Garryfish,1
+Cured Holefish,Holefish,1
+Cured Hoopfish,Hoopfish,1
+Cured Hoverfish,Hoverfish,1
+Cured Magmarang,Magmarang,1
+Cured Oculus,Oculus,1
+Cured Peeper,Peeper,1
+Cured Red Eyeye,Red Eyeye,1
+Cured Reginald,Reginald,1
+Cured Spadefish,Spadefish,1
+Cured Spinefish,Spinefish,1
+Cured Bladderfish,Salt Deposit,1
+Cured Boomerang,Salt Deposit,1
+Cured Eyeye,Salt Deposit,1
+Cured Garryfish,Salt Deposit,1
+Cured Holefish,Salt Deposit,1
+Cured Hoopfish,Salt Deposit,1
+Cured Hoverfish,Salt Deposit,1
+Cured Magmarang,Salt Deposit,1
+Cured Oculus,Salt Deposit,1
+Cured Peeper,Salt Deposit,1
+Cured Red Eyeye,Salt Deposit,1
+Cured Reginald,Salt Deposit,1
+Cured Spadefish,Salt Deposit,1
+Cured Spinefish,Salt Deposit,1
+Bleach,Salt Deposit,1
+Bleach,Tube Coral Sample,1
+Enameled Glass,Glass,1
+Enameled Glass,Stalker Teeth,1
+Fiber Mesh,Creepvine Sample,2
+Glass,Quartz,2
+Lubricant,Creepvine Seed Cluster,1
+Plasteel Ingot,Titanium Ingot,1
+Plasteel Ingot,Lithium,2
+Silicone Rubber,Creepvine Seed Cluster,1
+Titanium Ingot,Titanium,10
+Advanced Wiring Kit,Wiring Kit,1
+Advanced Wiring Kit,Gold,2
+Advanced Wiring Kit,Computer Chip,1
+Battery,Acid Mushroom,2
+Battery,Copper Ore,1
+Computer Chip,Copper Wire,1
+Computer Chip,Table Coral Sample,2
+Computer Chip,Gold,1
+Copper Wire,Copper Ore,2
+Ion Battery,Ion Cube,1
+Ion Battery,Gold,1
+Ion Battery,Silver,1
+Ion Power Cell,Ion Battery,2
+Ion Power Cell,Silicone Rubber,1
+Power Cell,Battery,2
+Power Cell,Silicone Rubber,1
+Reactor Rod,Uranite Crystal,3
+Reactor Rod,Lead,1
+Reactor Rod,Titanium,1
+Reactor Rod,Glass,1
+Wiring Kit,Silver Ore,2
+Aerogel,Gel Sack,1
+Aerogel,Ruby,1
+Benzene,Blood Oil,3
+Hydrochloric Acid,Deep Shroom,3
+Hydrochloric Acid,Salt Deposit,1
+Polyaniline,Hydrochloric Acid,1
+Polyaniline,Gold,1
+Synthetic Fiber,Benzene,1
+Synthetic Fiber,Fiber Mesh,1
+Purple Tablet,Ion Cube,1
+Purple Tablet,Diamond,2
+Orange Tablet,Ion Cube,1
+Orange Tablet,Nickel Ore,2
+Blue Tablet,Ion Cube,1
+Blue Tablet,Kyanite,2
+Compass,Copper Wire,1
+Compass,Wiring Kit,1
+Fins,Silicone Rubber,2
+Fire Extinguisher,Titanium,3
+First Aid Kit,Fiber Mesh,1
+Floating Air Pump,Titanium,2
+Pipe,Titanium,2
+Standard O2 Tank,Titanium,3
+High Capacity O2 Tank,Standard O2 Tank,1
+HIgh Capacity O2 Tank,Glass,2
+High Capacity O2 Tank,Titanium,4
+High Capacity O2 Tank,Silver Ore,1
+Lightweight High Capacity Tank,High Capacity O2 Tank,1
+Lightweight High Capacity Tank,Plasteel Ingot,1
+Ultra High Capacity Tank,Lithium,4
+Ultra High Capacity Tank,High Capacity O2 Tank,1
+Radiation Suit,Fiber Mesh,2
+Radiation Suit,Lead,2
+Rebreather,Wiring Kit,1
+Rebreather,Fiber Mesh,1
+Reinforced Dive Suit,Synthetic Fibers,1
+Reinforced Dive Suit,Diamond,2
+Reinforced Dive Suit,Titanium,2
+Scanner Room HUD Chip,Computer Chip,1
+Scanner Room HUD Chip,Magnetite,1
+Stillsuit,Synthetic Fibers,1
+Stillsuit,Aerogel,1
+Stillsuit,Copper Wire,1
+Ultra Glide Fins,Fins,1
+Ultra Glide Fins,Silicone Rubber,2
+Ultra Glide Fins,Titanium,1
+Ultra Glide Fins,Lithium,1
+Swim Charge Fins,Fins,1
+Swim Charge Fins,Polyaniline,1
+Swim Charge Fins,Wiring Kit,1
+Air Bladder,Bladderfish,1
+Air Bladder,Silicone Rubber,1
+Pathfinder Tool,Creepvine Seed Cluster,2
+Pathfinder Tool,Copper Wire,1
+Pathfinder Tool,Titanium,1
+Flare,Cave Sulfur,1
+Flashlight,Glass,1
+Flashlight,Battery,1
+Habitat Builder,Wiring Kit,1
+Habitat Builder,Computer Chip,1
+Habitat Builder,Battery,1
+Laser Cutter,Diamond,2
+Laser Cutter,Battery,1
+Laser Cutter,Cave Sulfur,1
+Light Stick,Battery,1
+Light Stick,Titanium,1
+Light Stick,Glass,1
+Propulsion Cannon,Wiring Kit,1
+Propulsion Cannon,Battery,1
+Propulsion Cannon,Titanium,1
+Repulsion Cannon,Propulsion Cannon,1
+Repulsion Cannon,Computer Chip,1
+Repulsion Cannon,Magnetite,2
+Repair Tool,Silicone Rubber,1
+Repair Tool,Cave Sulfur,1
+Repair Tool,Titanium,1
+Scanner,Titanium,1
+Scanner,Battery,1
+Stasis Rifle,Computer Chip,1
+Stasis Rifle,Battery,1
+Stasis Rifle,Titanium,1
+Stasis Rifle,Magnetite,2
+Survival Knife,Titanium,1
+Survival Knife,Silicone Rubber,1
+Thermoblade,Survival Knife,1
+Thermoblade,Battery,1
+Beacon,Copper Ore,1
+Beacon,Titanium,1
+Creature Decoy,Titanium,3
+Creature Decoy,Wiring Kit,1
+Grav Trap,Titanium,1
+Grav Trap,Copper Ore,1
+Grav Trap,Battery,1
+Mobile Vehicle Bay,Titanium Ingot,1
+Mobile Vehicle Bay,Lubricant,1
+Mobile Vehicle Bay,Power Cell,1
+Seaglide,Battery,1
+Seaglide,Lubricant,1
+Seaglide,Copper Wire,1
+Seaglide,Titanium,1
+Waterproof Locker,Titanium,4
+Seamoth,Titanium Ingot,1
+Seamoth,Power Cell,1
+Seamoth,Glass,2
+Seamoth,Lubricant,1
+Seamoth,Lead,1
+Prawn Suit,Plasteel Ingot,2
+Prawn Suit,Aerogel,2
+Prawn Suit,Enameled Glass,2
+Prawn Suit,Diamond,2
+Prawn Suit,Lead,2
+Cyclops,Plasteel Ingot,3
+Cyclops,Enameled Glass,3
+Cyclops,Lubricant,1
+Cyclops,Advanced Wiring Kit,1
+Cyclops,Lead,3
+Hull Reinforcement,Titanium,3
+Hull Reinforcement,Lithium,1
+Hull Reinforcement,Diamond,4
+Engine Efficiency Module,Computer Chip,1
+Engine Efficiency Module,Polyaniline,1
+Storage Module,Titanium,3
+Storage Module,Lithium,1
+Seamoth Solar Charger,Advanced Wiring Kit,1
+Seamoth Solar Charger,Enameled Glass,1
+Seamoth Perimeter Defense System,Polyaniline,1
+Seamoth Perimeter Defense System,Wiring Kit,1
+Torpedo System,Titanium,3
+Torpedo System,Lithium,1
+Torpedo System,Aerogel,1
+Seamoth Sonar,Copper Wire,1
+Seamoth Sonar,Magnetite,2
+Seamoth Depth Module Mk1,Titanium Ingot,1
+Seamoth Depth Module Mk1,Glass,2
+Seamoth Depth Module Mk2,Seamoth Depth Module Mk1,1
+Seamoth Depth Module Mk2,Plasteel Ingot,1
+Seamoth Depth Module Mk2,Magnetite,2
+Seamoth Depth Module Mk2,Enameled Glass,1
+Seamoth Depth Module Mk3,Seamoth Depth Module Mk2,1
+Seamoth Depth Module Mk3,Plasteel Ingot,1
+Seamoth Depth Module Mk3,Ruby,3
+Prawn Suit Depth Module Mk1,Plasteel Ingot,1
+Prawn Suit Depth Module Mk1,Nickel Ore,3
+Prawn Suit Depth Module Mk1,Ruby,2
+Prawn Suit Depth Module Mk2,Prawn Suit Depth Module Mk1,1
+Prawn Suit Depth Module Mk2,Titanium,5
+Prawn Suit Depth Module Mk2,Lithium,2
+Prawn Suit Depth Module Mk2,Kyanite,3
+Prawn Suit Thermal Reactor,Kyanite,2
+Prawn Suit Thermal Reactor,Polyaniline,2
+Prawn Suit Thermal Reactor,Wiring Kit,1
+Prawn Suit Jump Jet Upgrade,Nickel Ore,2
+Prawn Suit Jump Jet Upgrade,Crystalline Sulfur,3
+Prawn Suit Jump Jet Upgrade,Titanium,5
+Prawn Suit Propulsion Cannon,Computer Chip,1
+Prawn Suit Propulsion Cannon,Titanium,5
+Prawn Suit Propulsion Cannon,Lithium,1
+Prawn Suit Propulsion Cannon,Magnetite,2
+Prawn Suit Grappling Arm,Advanced Wiring Kit,1
+Prawn Suit Grappling Arm,Titanium,5
+Prawn Suit Grappling Arm,Lithium,1
+Prawn Suit Grappling Arm,Benzene,1
+Prawn Suit Drill Arm,Titanium,5
+Prawn Suit Drill Arm,Lithium,1
+Prawn Suit Drill Arm,Diamond,4
+Prawn Suit Torpedo Arm,Titanium,5
+Prawn Suit Torpedo Arm,Lithium,1
+Prawn Suit Torpedo Arm,Aerogel,1
+Vortex Torpedo,Titanium,1
+Vortex Torpedo,Magnetite,1
+Gas Torpedo,Titanium,1
+Gas Torpedo,Gas Pod,1
+Cyclops Depth Module Mk1,Plasteel Ingot,1
+Cyclops Depth Module Mk1,Ruby,3
+Cyclops Depth Module Mk2,Cyclops Depth Module Mk1,1
+Cyclops Depth Module Mk2,Plasteel Ingot,1
+Cyclops Depth Module Mk2,Nickel Ore,3
+Cyclops Depth Module Mk3,Cyclops Depth Module Mk2,1
+Cyclops Depth Module Mk3,Plasteel Ingot,1
+Cyclops Depth Module Mk3,Kyanite,3
+Cyclops Engine Efficiency Module,Computer Chip,1
+Cyclops Engine Efficiency Module,Benzene,1
+Cyclops Engine Efficiency Module,Polyaniline,1
+Cyclops Thermal Reactor Module,Polyaniline,2
+Cyclops Thermal Reactor Module,Kyanite,4
+Cyclops Thermal Reactor Module,Wiring Kit,1
+Cyclops Sonar Upgrade,Computer Chip,1
+Cyclops Sonar Upgrade,Magnetite,3
+Cyclops Fire Suppression System,Aerogel,2
+Cyclops Fire Suppression System,Crystalline Sulfur,2
+Cyclops Docking Bay Repair Module,Repair Tool,1
+Cyclops Docking Bay Repair Module,Copper Wire,1
+Cyclops Decoy Tube Upgrade,Titanium,3
+Cyclops Decoy Tube Upgrade,Lithium,2
+Cyclops Shield Generator,Advanced Wiring Kit,1
+Cyclops Shield Generator,Polyaniline,1
+Cyclops Shield Generator,Power Cell,1
+Scanner Room Range Upgrade,Copper Ore,1
+Scanner Room Range Upgrade,Magnetite,1
+Scanner Room Speed Upgrade,Silver Ore,1
+Scanner Room Speed Upgrade,Gold,1
+Camera Drone,Computer Chip,1
+Camera Drone,Battery,1
+Camera Drone,Glass,1
+Camera Drone,Titanium,1
+Foundation,Titanium,2
+Foundation,Lead,2
+Basic Compartment,Titanium,2
+L Compartment,Titanium,2
+T Compartment,Titanium,2
+X Compartment,Titanium,2
+Glass Compartment,Glass,2
+L Glass Compartment,Glass,2
+Vertical Connector,Titanium,2
+Multipurpose Room,Titanium,6
+Scanner Room,Titanium,5
+Scanner Room,Copper Ore,2
+Scanner Room,Gold,1
+Scanner Room,Table Coral Sample,1
+Moonpool,Titanium Ingot,2
+Moonpool,Lubricant,1
+Moonpool,Lead,2
+Observatory,Enameled Glass,2
+Observatory,Titanium,1
+Hatch,Quartz,1
+Window,Glass,1
+Reinforcement,Lithium,1
+Reinforcement,Titanium,3
+Solar Panel,Quartz,2
+Solar Panel,Titanium,2
+Solar Panel,Copper Ore,1
+Thermal Plant,Titanium,5
+Thermal Plant,Magnetite,2
+Thermal Plant,Aerogel,1
+Power Transmitter,Gold,1
+Power Transmitter,Titanium,1
+Floodlight,Glass,1
+Floodlight,Titanium,1
+Spotlight,Glass,1
+Spotlight,Titanium,2
+Exterior Growbed,Titanium,2
+Base-Attached Air Pump,Titanium,2
+Ladder,Titanium,2
+Water Filtration Machine,Titanium,3
+Water Filtration Machine,Copper Wire,1
+Water Filtration Machine,Aerogel,1
+Bulkhead,Titanium,3
+Bulkhead,Silicone Rubber,1
+Vehicle Modification Console,Titanium,3
+Vehicle Modification Console,Computer Chip,1
+Vehicle Modification Console,Copper Wire,1
+Bioreactor,Titanium,3
+Bioreactor,Wiring Kit,1
+Bioreactor,Lubricant,1
+Nuclear Reactor,Plasteel Ingot,1
+Nuclear Reactor,Advanced Wiring Kit,1
+Nuclear Reactor,Lead,3
+Alien Containment,Glass,5
+Alien Containment,Titanium,2
+Fabricator,Titanium,1
+Fabricator,Gold,1
+Fabricator,Table Coral Sample,1
+Radio,Titanium,1
+Radio,Copper Ore,1
+Medical Kit Fabricator,Computer Chip,1
+Medical Kit Fabricator,Fiber Mesh,1
+Medical Kit Fabricator,Silver Ore,1
+Medical Kit Fabricator,Titanium,1
+Wall Locker,Titanium,2
+Locker,Quartz,1
+Locker,Titanium,2
+Battery Charger,Wiring Kit,1
+Battery Charger,Copper Wire,1
+Battery Charger,Titanium,1
+Power Cell Charger,Advanced Wiring Kit,1
+Power Cell Charger,Ruby,2
+Power Cell Charger,Titanium,2
+Aquarium,Glass,2
+Aquarium,Titanium,1
+Modification Station,Computer Chip,1
+Modification Station,Titanium,1
+Modification Station,Diamond,1
+Modification Station,Lead,1
+Basic Plant Pot,Titanium,2
+Composite Plant Pot,Titanium,2
+Chic Plant Pot,Titanium,2
+Interior Growbed,Titanium,4
+Plant Shelf,Titanium,1
+Bench,Titanium,2
+Double Bed,Titanium,2
+Double Bed,Fiber Mesh,1
+Single Bed,Titanium,1
+Single Bed,Fiber Mesh,1
+Desk,Titanium,1
+Swivel Chair,Titanium,1
+Office Chair,Titanium,1
+Command Chair,Titanium,1
+Sign,Copper Wire,1
+Picture Frame,Copper Wire,1
+Bar Table,Glass,1
+Bar Table,Titanium,1
+Trash Can,Titanium,2
+Nuclear Waste Disposal,Titanium,2
+Vending Machine,Titanium,2
+Vending Machine,Glass,1
+Coffee Machine,Titanium,2
+Counter,Titanium,2
+Wall Planter,Titanium,1
+Single Wall Shelf,Titanium,1
+Wall Shelves,Titanium,2
+Markiplier Doll,Titanium,1
+Markiplier Doll,Glass,1
+Neptune Launch Platform,Lead,4
+Neptune Launch Platform,Titanium Ingot,2
+Neptune Launch Platform,Computer Chip,1
+Neptune Gantry,Plasteel Ingot,1
+Neptune Gantry,Copper Wire,1
+Neptune Gantry,Lubricant,1
+Neptune Boosters,Plasteel Ingot,1
+Neptune Boosters,Nickel Ore,3
+Neptune Boosters,Aerogel,2
+Neptune Boosters,Wiring Kit,1
+Neptune Fuel Reserve,Plasteel Ingot,1
+Neptune Fuel Reserve,Crystalline Sulfur,4
+Neptune Fuel Reserve,Kyanite,4
+Neptune Fuel Reserve,Ion Power Cell,2
+Neptune Cockpit,Cyclops Shield Generator,1
+Neptune Cockpit,Plasteel Ingot,1
+Neptune Cockpit,Enameled Glass,1
+Neptune Cockpit,Computer Chip,1
+Neptune Escape Rocket,Neptune Launch Platform,1
+Neptune Escape Rocket,Neptune Gantry,1
+Neptune Escape Rocket,Neptune Boosters,1
+Neptune Escape Rocket,Neptune Fuel Reserve,1
+Neptune Escape Rocket,Neptune Cockpit,1
