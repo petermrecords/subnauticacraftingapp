@@ -132,7 +132,7 @@ Ancient Floater,Fauna,Parasite,,,,,,,
 Bleeder,Fauna,Parasite,,,,,,,
 Blood Crawler,Fauna,Parasite,,,,,,,
 Cave Crawler,Fauna,Parasite,,,,,,,
-Floater,Fauna,Parasite,1,1,,,,,Composed of multiple organisms in symbiosis.  Lifecycle unknown.
+Floater,Fauna,Parasite,1,,,,,,Composed of multiple organisms in symbiosis.  Lifecycle unknown.
 Lava Larva,Fauna,Parasite,,,,,,,
 Rock Grub,Fauna,Parasite,,,,,,,
 Shuttlebug,Fauna,Parasite,,4,,,,,
@@ -211,7 +211,7 @@ Power Cell,Electronic,,1,,,,Fabricator,1,High-capacity mobile power source.
 Reactor Rod,Electronic,,1,,,,Fabricator,1,Used to power nuclear reactors.
 Wiring Kit,Electronic,,1,,,,Fabricator,1,Insulated silver wire.  Essential electronic component.
 Aerogel,Advanced Material,,1,,,,Fabricator,1,"Light, porous, dried gel.  High heat insulation."
-Benzine,Advanced Material,,1,,,,Fabricator,1,C6H6.  Oil and solvent applications.
+Benzene,Advanced Material,,1,,,,Fabricator,1,C6H6.  Oil and solvent applications.
 Hydrochloric Acid,Advanced Material,,1,,,,Fabricator,1,HCl.  Powerful acidic compound.  Employ due care.
 Polyaniline,Advanced Material,,1,,,,Fabricator,1,High conductance polymer.
 Synthetic Fibers,Advanced Material,,1,,,,Fabricator,1,High-strength synthetic fibers.
@@ -303,7 +303,7 @@ L Compartment,Base Piece,Room,,,,,Habitat Builder,1,L-shaped compartment.
 T Compartment,Base Piece,Room,,,,,Habitat Builder,1,T-shaped compartment.
 X Compartment,Base Piece,Room,,,,,Habitat Builder,1,X-shaped compartment.
 Glass Compartment,Base Piece,Room,,,,,Habitat Builder,1,Basic glass-walled compartment.
-Glass L Compartment,Base Piece,Room,,,,,Habitat Builder,1,L-shaped glass compartment.
+L Glass Compartment,Base Piece,Room,,,,,Habitat Builder,1,L-shaped glass compartment.
 Vertical Connector,Base Piece,Room,,,,,Habitat Builder,1,Vertical base connector.
 Multipurpose Room,Base Piece,Room,,,,,Habitat Builder,1,Basic room.
 Scanner Room,Base Piece,Room,,,,,Habitat Builder,1,Locates resources and wrecks within range.

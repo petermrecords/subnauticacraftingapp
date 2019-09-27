@@ -1,4 +1,4 @@
-﻿Item Crafted,Item Worked,Number Required
+﻿Material Produced,Material Worked,Number Required
 Titanium,Metal Salvage,1
 Acid Mushroom,Acid Mushroom Spore,1
 Bloodvine,Blood Oil,1
@@ -96,7 +96,7 @@ Cured Reginald,Salt Deposit,1
 Cured Spadefish,Salt Deposit,1
 Cured Spinefish,Salt Deposit,1
 Bleach,Salt Deposit,1
-Bleach,Tube Coral Sample,1
+Bleach,Coral Tube Sample,1
 Enameled Glass,Glass,1
 Enameled Glass,Stalker Teeth,1
 Fiber Mesh,Creepvine Sample,2
@@ -117,7 +117,7 @@ Computer Chip,Gold,1
 Copper Wire,Copper Ore,2
 Ion Battery,Ion Cube,1
 Ion Battery,Gold,1
-Ion Battery,Silver,1
+Ion Battery,Silver Ore,1
 Ion Power Cell,Ion Battery,2
 Ion Power Cell,Silicone Rubber,1
 Power Cell,Battery,2
@@ -134,8 +134,8 @@ Hydrochloric Acid,Deep Shroom,3
 Hydrochloric Acid,Salt Deposit,1
 Polyaniline,Hydrochloric Acid,1
 Polyaniline,Gold,1
-Synthetic Fiber,Benzene,1
-Synthetic Fiber,Fiber Mesh,1
+Synthetic Fibers,Benzene,1
+Synthetic Fibers,Fiber Mesh,1
 Purple Tablet,Ion Cube,1
 Purple Tablet,Diamond,2
 Orange Tablet,Ion Cube,1
@@ -151,7 +151,7 @@ Floating Air Pump,Titanium,2
 Pipe,Titanium,2
 Standard O2 Tank,Titanium,3
 High Capacity O2 Tank,Standard O2 Tank,1
-HIgh Capacity O2 Tank,Glass,2
+High Capacity O2 Tank,Glass,2
 High Capacity O2 Tank,Titanium,4
 High Capacity O2 Tank,Silver Ore,1
 Lightweight High Capacity Tank,High Capacity O2 Tank,1
@@ -375,9 +375,9 @@ Water Filtration Machine,Copper Wire,1
 Water Filtration Machine,Aerogel,1
 Bulkhead,Titanium,3
 Bulkhead,Silicone Rubber,1
-Vehicle Modification Console,Titanium,3
-Vehicle Modification Console,Computer Chip,1
-Vehicle Modification Console,Copper Wire,1
+Vehicle Upgrade Console,Titanium,3
+Vehicle Upgrade Console,Computer Chip,1
+Vehicle Upgrade Console,Copper Wire,1
 Bioreactor,Titanium,3
 Bioreactor,Wiring Kit,1
 Bioreactor,Lubricant,1

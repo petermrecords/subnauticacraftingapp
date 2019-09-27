@@ -1,8 +1,8 @@
 class Material < ApplicationRecord
 
   # associations
-  has_many :built_from, class_name: "Blueprint", foreign_key: :material_produced_id
-  has_many :built_into, class_name: "Blueprint", foreign_key: :material_requried_id
+  has_many :materials_produced, class_name: "Blueprint", foreign_key: :material_produced_id
+  has_many :materials_required, class_name: "Blueprint", foreign_key: :material_requried_id
   has_many :byproducts
   has_many :byproduct_of, class_name: "Byproduct", foreign_key: :byproduct_id
 
@@ -25,7 +25,7 @@ class Material < ApplicationRecord
   end
 
   def crafted?
-    built_from.empty?
+    materials_required.empty?
   end
 
   def marine_growbed_spaces
@@ -47,13 +47,13 @@ class Material < ApplicationRecord
   private
 
   def crafted_item_has_location
-    if !built_from.empty? && !crafted_at.present?
+    if !materials_required.empty? && !crafted_at.present?
       errors.add(:crafted_at, "crafted item must be crafted someplace")
     end
   end
 
   def crafted_item_produces_quantity
-    if !built_from.empty? && !number_produced.present?
+    if !materials_required.empty? && !number_produced.present?
       errors.add(:number_produced, "crafted item must produce a quantity")
     end
   end
