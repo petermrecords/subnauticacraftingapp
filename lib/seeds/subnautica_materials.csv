@@ -1,0 +1,390 @@
+﻿Material Name,Material Type,Material Subtype,Inventory Spaces,Growbed Spaces,Wearable Slot,Storage Provided,Crafted At,Number Produced,Description
+Copper Ore,Mineral,,1,,,,,,Cu.  Essential wiring component.
+Cave Sulfur,Mineral,,1,,,,,,SO4Tr.  Sulfur-based powder which collects within particular cave plants.  Combustible underwater.
+Diamond,Mineral,,1,,,,,,C.  Carbon allotrope with superlative physical properties.
+Gas Pod,Mineral,,1,,,,,,An acidic compound produced by the gasopod.  May be repurposed.
+Gold,Mineral,,1,,,,,,Au.  Valuable conductive properties.  Highly valuable social property.
+Kyanite,Mineral,,1,,,,,,"Al2SiO5.  Deep blue, heat resistant crystal."
+Lead,Mineral,,1,,,,,,Pb.  Screening from radiation.
+Lithium,Mineral,,1,,,,,,Li.  Applications in high-strength alloys.
+Magnetite,Mineral,,1,,,,,,Fe3O4.  Metal oxide with magnetic properties.
+Metal Salvage,Mineral,,4,,,,,,Composed primarily of titanium.
+Titanium,Mineral,,1,,,,Fabricator,4,Ti.  Basic building material.
+Nickel Ore,Mineral,,1,,,,,,Ni.  Versatile alloy ingredient required for advanced fabrication.
+Quartz,Mineral,,1,,,,,,SiO4.  Silica in crystalline form.
+Ruby,Mineral,,1,,,,,,Al2O3.  Valuable thermo-conductivity and electro-conductance.
+Salt Deposit,Mineral,,1,,,,,,NaCl.  Culinary and sanitation applications.
+Alien Feces,Mineral,,4,,,,,,"Nutrient-rich manure, suitable for bio-energy production."
+Silver Ore,Mineral,,1,,,,,,Ag.  Conductive element and microbicide.
+Stalker Teeth,Mineral,,1,,,,,,"A sharp, hardened calcium formation."
+Crystalline Sulfur,Mineral,,1,,,,,,S.  Oxidant and reducing agent.
+Uranite Crystal,Mineral,,1,,,,,,U3O8.  A highly radioactive material.
+Acid Mushroom Spore,Seed,,1,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Blood Oil,Seed,,4,,,,,,"Red, oil-filled pustule.  Contains bloodvine seeds.  May be processed into benzene."
+Blue Palm Seed,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Bulb Bush Sample,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Cave Bush Seed,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Creepvine Sample,Seed,,4,,,,,,Silicone-based plant material.
+Creepvine Seed Cluster,Seed,,4,,,,,,Indigenous seeds with high silicone and oil content.
+Deep Shroom Spore,Seed,,1,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Furled Papyrus Seed,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Eye Stalk Seed,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Gabe's Feather Seed,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Gel Sack Spore,Seed,,1,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Ghost Weed Seed,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Jellyshroom Spore,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Membrain Tree Seed,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Pygmy Fan Seed,Seed,,1,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Redwort Seed,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Regress Shell Seed,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Rouge Cradle Seed,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Sea Crown Seed,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Spiked Horn Grass Seed,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Spotted Dockleaf Seed,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Tiger Plant Seed,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Veined Nettle Seed,Seed,,1,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Violet Beau Seed,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Writhing Weed Seed,Seed,,1,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Bulbo Tree Sample,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Chinese Potato,Seed,,4,,,,,,A hardy vegetable common in federation space.
+Fern Palm Seed,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Grub Basket Seed,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Jaffa Cup Seed,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Lantern Fruit,Seed,,4,,,,,,Lantern fruit - edible.
+Marblemelon Seed,Seed,,1,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Ming Plant Seed,Seed,,4,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Pink Cap Spore,Seed,,1,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Speckled Rattler Spore,Seed,,1,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Voxel Shrub Seed,Seed,,1,,,,,,"A mature flora specimen will grow, if planted in the right conditions."
+Acid Mushroom,Flora,Marine,1,1,,,Growbed,1,Purple fungus.  Acidic flesh.
+Bloodvine,Flora,Marine,,4,,,Growbed,1,
+Bloodroot,Flora,Marine,,,,,,,
+Blue Palm,Flora,Marine,,4,,,Growbed,1,
+Bulb Bush,Flora,Marine,,4,,,Growbed,1,
+Cave Bush,Flora,Marine,,4,,,Growbed,1,
+Creepvine,Flora,Marine,,4,,,Growbed,1,
+Deep Shroom,Flora,Marine,1,1,,,Growbed,1,Highly acidic flesh.
+Eye Stalk,Flora,Marine,,4,,,Growbed,1,
+Furled Papyrus,Flora,Marine,,4,,,Growbed,1,
+Gabe's Feather,Flora,Marine,,4,,,Growbed,1,
+Gel Sack,Flora,Marine,1,1,,,Growbed,1,Gel sack.
+Ghost Weed,Flora,Marine,,4,,,Growbed,1,
+Jellyshroom,Flora,Marine,,4,,,Growbed,1,
+Membrain Tree,Flora,Marine,,4,,,Growbed,1,
+Pygmy Fan,Flora,Marine,,1,,,Growbed,1,
+Redwort,Flora,Marine,,4,,,Growbed,1,
+Regress Shell,Flora,Marine,,4,,,Growbed,1,
+Rouge Cradle,Flora,Marine,,4,,,Growbed,1,
+Sea Crown,Flora,Marine,,4,,,Growbed,1,
+Spiked Horn Grass,Flora,Marine,,4,,,Growbed,1,
+Spotted Dockleaf,Flora,Marine,,4,,,Growbed,1,
+Tiger Plant,Flora,Marine,,4,,,Growbed,1,
+Veined Nettle,Flora,Marine,,1,,,Growbed,1,
+Violet Beau,Flora,Marine,,4,,,Growbed,1,
+Writhing Weed,Flora,Marine,,1,,,Growbed,1,
+Bulbo Tree,Flora,Land,,4,,,Growbed,1,
+Chinese Potato Plant,Flora,Land,,4,,,Growbed,1,
+Fern Palm,Flora,Land,,4,,,Growbed,1,
+Grub Basket,Flora,Land,,4,,,Growbed,1,
+Jaffa Cup,Flora,Land,,4,,,Growbed,1,
+Lantern Tree,Flora,Land,,4,,,Growbed,1,
+Marblemelon Plant,Flora,Land,,1,,,Growbed,1,
+Ming Plant,Flora,Land,,4,,,Growbed,1,
+Pink Cap,Flora,Land,,1,,,Growbed,1,A land-based fungus species with harvestable spores.  Inedible.
+Speckled Rattler,Flora,Land,,1,,,Growbed,1,Alien flora sample.
+Voxel Shrub,Flora,Land,,1,,,Growbed,1,
+Ampeel,Fauna,Carnivore,,9,,,Alien Containment,1,"Electrified predator, raised in containment."
+Biter,Fauna,Carnivore,,,,,,,
+Blighter,Fauna,Carnivore,,,,,,,
+Boneshark,Fauna,Carnivore,,9,,,Alien Containment,1,"Armored shark-like predator, raised in containment."
+Crabsnake,Fauna,Carnivore,,9,,,Alien Containment,1,"Aggressive eel-like organism, raised in containment."
+Crabsquid,Fauna,Carnivore,,9,,,Alien Containment,1,"Complex deep-sea predator, raised in containment."
+Crashfish,Fauna,Carnivore,,4,,,Alien Containment,1,"Explosive prey fish, raised in containment."
+Lava Lizard,Fauna,Carnivore,,9,,,Alien Containment,1,"Predator adapted to volcanic environments, raised in containment."
+Mesmer,Fauna,Carnivore,,4,,,Alien Containment,1,"Small, mesmerizing predator, raised in containment."
+River Prowler,Fauna,Carnivore,,,,,,,
+Sand Shark,Fauna,Carnivore,,9,,,Alien Containment,1,"Stealthy Predator, raised in containment."
+Stalker,Fauna,Carnivore,,9,,,Alien Containment,1,"Common barracuda-like predator, raised in containment."
+Warper,Fauna,Carnivore,,,,,,,
+Bladderfish,Fauna,Herbivore,1,1,,,,,Unique outer membrane has potential as a natural water filter.
+Boomerang,Fauna,Herbivore,1,1,,,,,"Small, edible prey fish."
+Crimson Ray,Fauna,Herbivore,,,,,,,
+Cuddlefish,Fauna,Herbivore,,,,,Alien Containment,1,"A curious species, hatched from an egg in alien containment.  No wild specimens."
+Eyeye,Fauna,Herbivore,1,1,,,,,"Small, edible prey fish."
+Garryfish,Fauna,Herbivore,1,1,,,,,"Small, edible prey fish."
+Gasopod,Fauna,Herbivore,,9,,,Alien Containment,1,"Gaseous herbivore, raised in containment."
+Ghost Ray,Fauna,Herbivore,,,,,,,
+Holefish,Fauna,Herbivore,1,1,,,,,"Small, edible prey fish."
+Hoopfish,Fauna,Herbivore,1,1,,,,,"Small, edible prey fish."
+Hoverfish,Fauna,Herbivore,1,1,,,,,"Small, edible prey fish."
+Jellyray,Fauna,Herbivore,,9,,,Alien Containment,1,"Docile, deep-sea ray, rasied in containment."
+Magmarang,Fauna,Herbivore,1,1,,,,,"Small, edible prey fish."
+Oculus,Fauna,Herbivore,1,1,,,,,"Small, edible prey fish."
+Peeper,Fauna,Herbivore,1,1,,,,,Edible prey fish.  High calorie count.
+Rabbit Ray,Fauna,Herbivore,,4,,,Alien Containment,1,"Ray found in shallow waters, raised in containment."
+Red Eyeye,Fauna,Herbivore,1,1,,,,,"Small, edible prey fish."
+Reginald,Fauna,Herbivore,1,1,,,,,Edible prey fish.  High calorie count.
+Skyray,Fauna,Herbivore,,,,,,,
+Spadefish,Fauna,Herbivore,1,1,,,Alien Containment,1,"Small, edible prey fish."
+Spinefish,Fauna,Herbivore,1,1,,,,,"Small, edible prey fish."
+Amoeboid,Fauna,Parasite,,,,,,,
+Ancient Floater,Fauna,Parasite,,,,,,,
+Bleeder,Fauna,Parasite,,,,,,,
+Blood Crawler,Fauna,Parasite,,,,,,,
+Cave Crawler,Fauna,Parasite,,,,,,,
+Floater,Fauna,Parasite,1,1,,,,,Composed of multiple organisms in symbiosis.  Lifecycle unknown.
+Lava Larva,Fauna,Parasite,,,,,,,
+Rock Grub,Fauna,Parasite,,,,,,,
+Shuttlebug,Fauna,Parasite,,4,,,,,
+Ghost Leviathan,Fauna,Leviathan,,,,,,,
+Reaper Leviathan,Fauna,Leviathan,,,,,,,
+Reefback Leviathan,Fauna,Leviathan,,,,,,,
+Sea Dragon Leviathan,Fauna,Leviathan,,,,,,,
+Sea Emperor Leviathan,Fauna,Leviathan,,,,,,,
+Sea Treader Leviathan,Fauna,Leviathan,,,,,,,
+Ampeel Egg,Egg,,4,,,,,,Ampeels hatch from these.
+Boneshark Egg,Egg,,4,,,,,,Bonesharks hatch from these.
+Crabsnake Egg,Egg,,4,,,,,,Crabsnakes hatch from these.
+Crabsquid Egg,Egg,,4,,,,,,Crabsquids hatch from these.
+Crashfish Egg,Egg,,1,,,,,,Crashfish hatch from these.
+Cuddlefish Egg,Egg,,1,,,,,,Cuddlefish hatch from these.
+Gasopod Egg,Egg,,4,,,,,,Gasopods hatch from these.
+Jellyray Egg,Egg,,4,,,,,,Jellyrays hatch from these.
+Lava Lizard Egg,Egg,,4,,,,,,Lava lizards hatch from these.
+Mesmer Egg,Egg,,1,,,,,,Mesmers hatch from these.
+Rabbit Ray Egg,Egg,,1,,,,,,Rabbit rays hatch from these.
+Sand Shark Egg,Egg,,4,,,,,,Sand sharks hatch from these.
+Spadefish Egg,Egg,,1,,,,,,Spadefish hatch from these.
+Stalker Egg,Egg,,4,,,,,,Stalkers hatch from these.
+Large Filtered Water,Sustenance,Water,1,,,,,,H2O.  15oz.  Pure.
+Coffee Americano,Sustenance,Water,1,,,,,,"Real Italian espresso, diluted with tasteless American water."
+Disinfected Water,Sustenance,Water,1,,,,Fabricator,2,H2O.  12oz.  Microorganism-free.
+Filtered Water,Sustenance,Water,1,,,,Fabricator,1,H2O.  6oz.  Filtered using an all-organic membrane.  Non-vegetarian.
+Reclaimed Water,Sustenance,Water,1,,,,,,"H2O.  Purified, reclaimed body water."
+Cooked Bladderfish,Sustenance,Cooked Food,1,,,,Fabricator,1,Spongy.  Gristly.  Low calorie count.  Thankfully odorless.
+Cooked Boomerang,Sustenance,Cooked Food,1,,,,Fabricator,1,Good eating around the fins.
+Cooked Eyeye,Sustenance,Cooked Food,1,,,,Fabricator,1,High in fluids.  Low calorie count.  Hard to keep down.
+Cooked Garryfish,Sustenance,Cooked Food,1,,,,Fabricator,1,"Floral flavor, but very little of it."
+Cooked Holefish,Sustenance,Cooked Food,1,,,,Fabricator,1,Gelatinous flesh.
+Cooked Hoopfish,Sustenance,Cooked Food,1,,,,Fabricator,1,Never eat the antennae.
+Cooked Hoverfish,Sustenance,Cooked Food,1,,,,Fabricator,1,"Firm, low-fat reptilian fish."
+Cooked Magmarang,Sustenance,Cooked Food,1,,,,Fabricator,1,
+Cooked Oculus,Sustenance,Cooked Food,1,,,,Fabricator,1,"Dark, dense meat.  A good meal."
+Cooked Peeper,Sustenance,Cooked Food,1,,,,Fabricator,1,Protien-rich eyeballs.  Highly nutritious.
+Cooked Red Eyeye,Sustenance,Cooked Food,1,,,,Fabricator,1,
+Cooked Reginald,Sustenance,Cooked Food,1,,,,Fabricator,1,Pungent and smoky.  Extremely filling.
+Cooked Spadefish,Sustenance,Cooked Food,1,,,,Fabricator,1,Decent size but salty.
+Cooked Spinefish,Sustenance,Cooked Food,1,,,,Fabricator,1,Never eat the antennae.
+Cured Bladderfish,Sustenance,Cured Food,1,,,,Fabricator,1,"Reminiscent of jerky.  Dehydrating, but keeps well."
+Cured Boomerang,Sustenance,Cured Food,1,,,,Fabricator,1,"Tough but flavorsome.  Dehydrating, but keeps well."
+Cured Eyeye,Sustenance,Cured Food,1,,,,Fabricator,1,"Shriveled, and unpleasant.  Dehydrating, but keeps well."
+Cured Garryfish,Sustenance,Cured Food,1,,,,Fabricator,1,"The only flavor is salt.  Dehydrating, but keeps well."
+Cured Holefish,Sustenance,Cured Food,1,,,,Fabricator,1,"Salting has given the flesh a mousse-like consistency.  Dehydrating, but keeps well."
+Cured Hoopfish,Sustenance,Cured Food,1,,,,Fabricator,1,"This fish actually tastes like fish.  Dehydrating, but keeps well."
+Cured Hoverfish,Sustenance,Cured Food,1,,,,Fabricator,1,"The crispy, salty legs are the highlight.  Dehydrating, but keeps well."
+Cured Magmarang,Sustenance,Cured Food,1,,,,Fabricator,1,
+Cured Oculus,Sustenance,Cured Food,1,,,,Fabricator,1,"Meaty and still strong in flavor.  Dehydrating, but keeps well."
+Cured Peeper,Sustenance,Cured Food,1,,,,Fabricator,1,"Preserved in salt.  A healthy and nutritious meal.  Dehydrating, but keeps well."
+Cured Red Eyeye,Sustenance,Cured Food,1,,,,Fabricator,1,
+Cured Reginald,Sustenance,Cured Food,1,,,,Fabricator,1,"Overly salty, but very filling.  Dehydrating, but keeps well."
+Cured Spadefish,Sustenance,Cured Food,1,,,,Fabricator,1,"Your daily dose of salt in a single portion.  Dehydrating, but keeps well."
+Cured Spinefish,Sustenance,Cured Food,1,,,,Fabricator,1,"Entirely bland.  Dehydrating, but keeps well."
+Nutrient Block,Sustenance,Raw Food,1,,,,,,"Dense, processed food recovered from the Aurora."
+Snacks,Sustenance,Raw Food,1,,,,,,"Chips of assorted flavors, reclaimed from manufacturing errors."
+Small Marblemelon,Sustenance,Raw Food,1,,,,,,A small alien fruit.
+Marblemelon,Sustenance,Raw Food,4,,,,,,An alien fruit - edible.
+Bleach,Basic Material,,1,,,,Fabricator,1,NaClO.  Sodium hypochlorite bleach.  Sanitizing applications.
+Enameled Glass,Basic Material,,1,,,,Fabricator,1,"Glass, hardened using an natural substrate."
+Fiber Mesh,Basic Material,,1,,,,Fabricator,1,Strong natural fiber.  Comfy.
+Glass,Basic Material,,1,,,,Fabricator,1,SiO4.  Pure fused quartz glass.
+Lubricant,Basic Material,,1,,,,Fabricator,1,"Naturally-derived, oil-based lubricant. Industrial applications."
+Plasteel Ingot,Basic Material,,1,,,,Fabricator,1,Ultra-strong synthetic construction material.
+Silicone Rubber,Basic Material,,1,,,,Fabricator,2,"Synthetic, silicon-based rubber."
+Titanium Ingot,Basic Material,,1,,,,Fabricator,1,Ti.  Condensed titanium bar.
+Advanced Wiring Kit,Electronic,,1,,,,Fabricator,1,CPU with gold/silver wiring for advanced construction.
+Battery,Electronic,,1,,,,Fabricator,1,Mobile power source.
+Computer Chip,Electronic,,1,,,,Fabricator,1,Multi-purpose CPU.
+Copper Wire,Electronic,,1,,,,Fabricator,1,Copper atoms fabricated into basic electrical wiring.
+Ion Battery,Electronic,,1,,,,Fabricator,1,Ion-infused battery.
+Ion Power Cell,Electronic,,1,,,,Fabricator,1,Ion-infused power cell.
+Power Cell,Electronic,,1,,,,Fabricator,1,High-capacity mobile power source.
+Reactor Rod,Electronic,,1,,,,Fabricator,1,Used to power nuclear reactors.
+Wiring Kit,Electronic,,1,,,,Fabricator,1,Insulated silver wire.  Essential electronic component.
+Aerogel,Advanced Material,,1,,,,Fabricator,1,"Light, porous, dried gel.  High heat insulation."
+Benzine,Advanced Material,,1,,,,Fabricator,1,C6H6.  Oil and solvent applications.
+Hydrochloric Acid,Advanced Material,,1,,,,Fabricator,1,HCl.  Powerful acidic compound.  Employ due care.
+Polyaniline,Advanced Material,,1,,,,Fabricator,1,High conductance polymer.
+Synthetic Fibers,Advanced Material,,1,,,,Fabricator,1,High-strength synthetic fibers.
+Ion Cube,Alien Resource,,1,,,,Fabricator,1,High capacity energy source.
+Purple Tablet,Alien Resource,,1,,,,Fabricator,1,
+Orange Tablet,Alien Resource,,1,,,,Fabricator,1,
+Blue Tablet,Alien Resource,,1,,,,Fabricator,1,
+Compass,Equipment,,1,,HUD,,Fabricator,1,HUD NWSE indicator.
+Fins,Equipment,,4,,Fins,,Fabricator,1,Translate vertical limb movements underwater into forward thrust.
+Fire Extinguisher,Equipment,,1,,,,Fabricator,1,Keeps fires in check.
+First Aid Kit,Equipment,,1,,,,Fabricator,1,Treated bandages.  Apply to staunch blood-flow and sanitize wounds.
+Floating Air Pump,Equipment,,1,,,,Fabricator,1,Floating device that pumps air into pipes.  Acts as a starting point for a pipe chain.
+Ultra High Capacity Tank,Equipment,,9,,Tank,,Modification Station,1,Additional air capacity.
+Standard O2 Tank,Equipment,,6,,Tank,,Fabricator,1,O2 mix.  Compressed breathable air.
+High Capacity O2 Tank,Equipment,,6,,Tank,,Fabricator,1,O2 mix.  Highly compressed breathable air.
+Lightweight High Capacity Tank,Equipment,,6,,Tank,,Modification Station,1,Lighter build allows for enhanced manuverability.
+Radiation Suit,Equipment,,4,,Suit,,Fabricator,1,Lead-lined suit providing insulation from radiation.
+Radiation Helmet,Equipment,,4,,Helmet,,,,Lead-lined radiation helmet.
+Radiation Gloves,Equipment,,4,,Gloves,,,,Lead-based radiation protection.
+Rebreather,Equipment,,4,,Helmet,,Fabricator,1,Absorb CO2 to recycle used air at greater depths.
+Pipe,Equipment,,1,,,,Fabricator,5,A chain of pipes can be used to pump air to far away places.  Start with a pump.
+Reinforced Dive Suit,Equipment,,4,,Suit,,Fabricator,1,Heavy aramid fiber dive suit providing 50% physical protection.
+Reinforced Gloves,Equipment,,4,,Gloves,,,,Heavy synthetic fiber gloves providing 50% physical protection and enhanced survival in extreme temperatures.
+Scanner Room HUD Chip,Equipment,,1,,HUD,,Scanner Room,1,Streams data from scanner rooms to the HUD.
+Stillsuit,Equipment,,4,,Suit,,Fabricator,1,Reclaims moisture from the body.
+Swim Charge Fins,Equipment,,4,,Fins,,Modification Station,1,Wirelessly charges your held tool while you swim.
+Ultra Glide Fins,Equipment,,4,,Fins,,Modification Station,1,Streamlined construction enhances swim speed.
+Air Bladder,Tool,,1,,,,Fabricator,1,Emergency flotation device.  Chemical reaction produces lighter-than-air gas for personal buoyancy.
+Pathfinder Tool,Tool,,1,,,,Fabricator,1,Deployed holographic pathfinder discs.  Used to map a way back out of caves or hard to navigate spaces.  Max 20 discs per path.
+Flare,Tool,,1,,,,Fabricator,5,"Disposable light source, useful for distracting certain predators."
+Flashlight,Tool,,1,,,,Fabricator,1,"Battery-powered, all-environment light source."
+Habitat Builder,Tool,,1,,,,Fabricator,1,Fabricates habitat components and appliances from raw materials.
+Laser Cutter,Tool,,1,,,,Fabricator,1,Cutting device suitable for penetrating standard titanium doors.
+Light Stick,Tool,,1,,,,Fabricator,1,Deployable lighting.
+Propulsion Cannon,Tool,,4,,,,Fabricator,1,Warps gravity to pull and push objects.
+Repair Tool,Tool,,1,,,,Fabricator,1,"Multi-purpose repair tool, functional in all environments."
+Repulsion Cannon,Tool,,4,,,,Modification Station,1,Applies percussive force to entities in range.
+Scanner,Tool,,1,,,,Fabricator,1,Spectroscope scanner used to acquire technology blueprints and data on living organisms.
+Stasis Rifle,Tool,,4,,,,Fabricator,1,Freezes physical objects in place.
+Survival Knife,Tool,,1,,,,Fabricator,1,Standard survival tool.  Multi-functional.
+Thermoblade,Tool,,1,,,,Modification Station,1,Cooks and sterilizes small organisms for immediate consumption.
+Beacon,Deployable,,1,,,,Fabricator,1,Navigation aid.  Maintains and broadcasts its position.  Configurable label.
+Creature Decoy,Deployable,,1,,,,Fabricator,3,Attracts creatures to its location.  Can be deployed by hand or by a submarine.  Cannot be reclaimed once deployed.
+Grav Trap,Deployable,,4,,,,Fabricator,1,Uses artificial gravity to attract light objects.
+Mobile Vehicle Bay,Deployable,,9,,,,Fabricator,1,Fabricates vehicles from raw materials.
+Seaglide,Deployable,,6,,,,Fabricator,1,Converts torque into thrust underwater via propeller.
+Waterproof Locker,Deployable,,4,,,16,Fabricator,1,4x4 storage that maintains position in the water.
+Seamoth,Vehicle,,,,,,Mobile Vehicle Bay,1,One-person sea and space vehicle.
+Prawn Suit,Vehicle,,,,,,Mobile Vehicle Bay,1,Epic mech suit designed for navigating challenging environments on foot.
+Cyclops,Vehicle,,,,,,Mobile Vehicle Bay,1,Vast industrial-use submarine.
+Neptune Launch Platform,Vehicle,,,,,,Mobile Vehicle Bay,1,Provides a stable surface from which to launch the Neptune.
+Neptune Gantry,Vehicle,,,,,,Neptune Launch Platform,1,Supports the rocket during construction.
+Neptune Boosters,Vehicle,,,,,,Neptune Launch Platform,1,Experimental boosters.
+Neptune Fuel Reserve,Vehicle,,,,,,Neptune Launch Platform,1,Primary fuel tanks.
+Neptune Cockpit,Vehicle,,,,,,Neptune Launch Platform,1,A hermetically sealed environment with life support and launch controls.
+Hull Reinforcement,Upgrade Module,General Vehicle,1,,Upgrade,,Vehicle Modification Console,1,"Preemptively hardens the chassis before collision, eliminating damage under normal conditions.  Seamoth/Prawn compatible."
+Engine Efficiency Module,Upgrade Module,General Vehicle,1,,Upgrade,,Vehicle Modification Console,1,Recycles heat by-product to minimize power inefficiencies.  Seamoth/Prawn compatible.
+Storage Module,Upgrade Module,General Vehicle,1,,Upgrade,16,Vehicle Modification Console,1,A 4x4 storage Module.  Seamoth/Prawn compatible.
+Seamoth Depth Module Mk1,Upgrade Module,Seamoth,1,,Upgrade,,Vehicle Modification Console,1,Hardens the vehicle chassis under medium pressures.
+Seamoth Depth Module Mk2,Upgrade Module,Seamoth,1,,Upgrade,,Modification Station,1,Hardens the vehicle chassis under high pressures.
+Seamoth Depth Module Mk3,Upgrade Module,Seamoth,1,,Upgrade,,Modification Station,1,Hardens the vehicle chassis under extreme pressures.
+Seamoth Solar Charger,Upgrade Module,Seamoth,1,,Upgrade,,Vehicle Modification Console,1,Recharges the Seamoth's power cell while in sunlight.
+Seamoth Perimeter Defense System,Upgrade Module,Seamoth,1,,Upgrade,,Vehicle Modification Console,1,Generates a localized electric field designed to ward off aggressive fauna.
+Torpedo System,Upgrade Module,Seamoth,1,,Upgrade,,Vehicle Modification Console,1,A standard underwater payload delivery system adapted to fire torpedoes.
+Seamoth Sonar,Upgrade Module,Seamoth,1,,Upgrade,,Vehicle Modification Console,1,A dedicated system for detecting and displaying topographical data on the HUD.
+Prawn Suit Depth Module Mk1,Upgrade Module,Prawn Suit,1,,Upgrade,,Vehicle Modification Console,1,Enhances safe diving depth by 400m.  Does not stack.
+Prawn Suit Depth Module Mk2,Upgrade Module,Prawn Suit,1,,Upgrade,,Modification Station,1,Enhances safe diving depth by 800m.  Does not stack.
+Prawn Suit Thermal Reactor,Upgrade Module,Prawn Suit,1,,Upgrade,,Vehicle Modification Console,1,"Recharges power cells in hot areas, above 35 degrees.  Does not stack."
+Prawn Suit Jump Jet Upgrade,Upgrade Module,Prawn Suit,1,,Upgrade,,Vehicle Modification Console,1,Powerful rear-mounted jets propel the Prawn suit into the air.  Does stack.
+Prawn Suit Propulsion Cannon,Upgrade Module,Prawn Suit,1,,Arm,,Vehicle Modification Console,1,Industrial strength propulsion cannon fitting for the Prawn suit.
+Prawn Suit Grappling Arm,Upgrade Module,Prawn Suit,1,,Arm,,Vehicle Modification Console,1,Fires a grappling hook for enhanced environment traversal.
+Prawn Suit Drill Arm,Upgrade Module,Prawn Suit,1,,Arm,,Vehicle Modification Console,1,Enables the mining of resources.
+Prawn Suit Torpedo Arm,Upgrade Module,Prawn Suit,1,,Arm,,Vehicle Modification Console,1,A standard underwater payload delivery system adapted to fire torpedoes.
+Cyclops Depth Module Mk1,Upgrade Module,Cyclops,1,,Upgrade,,Cyclops,1,Rearrangess the submarine hull's atomic structure to increase safe diving depth.
+Cyclops Depth Module Mk2,Upgrade Module,Cyclops,1,,Upgrade,,Cyclops,1,Increases safe diving depth considerably.  Does not stack.
+Cyclops Depth Module Mk3,Upgrade Module,Cyclops,1,,Upgrade,,Cyclops,1,Increases safe diving depth by 1200m.  Does not stack.
+Cyclops Engine Efficiency Module,Upgrade Module,Cyclops,1,,Upgrade,,Cyclops,1,Recycles heat by-product to increase engine efficiency by 300%.
+Cyclops Shield Generator,Upgrade Module,Cyclops,1,,Upgrade,,Cyclops,1,Creates a temporary barrier around the sub rendering it invulnerable for a brief time.
+Cyclops Sonar Upgrade,Upgrade Module,Cyclops,1,,Upgrade,,Cyclops,1,Scans the terrain outside the Cyclops.
+Cyclops Docking Bay Repair Module,Upgrade Module,Cyclops,1,,Upgrade,,Cyclops,1,Repairs vehicles docked in the Cyclops.
+Cyclops Decoy Tube Upgrade,Upgrade Module,Cyclops,1,,Upgrade,,Cyclops,1,Increases the capacity of the Cyclops' decoy tube.
+Cyclops Fire Suppression System,Upgrade Module,Cyclops,1,,Upgrade,,Cyclops,1,Installs a fire suppression system on the Cyclops.
+Cyclops Thermal Reactor Module,Upgrade Module,Cyclops,1,,Upgrade,,Cyclops,1,Provides power through heat.
+Scanner Room Range Upgrade,Upgrade Module,Scanner Room,1,,Upgrade,,Scanner Room,1,Enhances scanner room range.
+Scanner Room Speed Upgrade,Upgrade Module,Scanner Room,1,,Upgrade,,Scanner Room,1,Enhances speed of scanner room functionality.
+Foundation,Base Piece,Room,,,,,Habitat Builder,1,Reinforced habitat foundation.
+Basic Compartment,Base Piece,Room,,,,,Habitat Builder,1,Basic tubular compartment.
+L Compartment,Base Piece,Room,,,,,Habitat Builder,1,L-shaped compartment.
+T Compartment,Base Piece,Room,,,,,Habitat Builder,1,T-shaped compartment.
+X Compartment,Base Piece,Room,,,,,Habitat Builder,1,X-shaped compartment.
+Glass Compartment,Base Piece,Room,,,,,Habitat Builder,1,Basic glass-walled compartment.
+Glass L Compartment,Base Piece,Room,,,,,Habitat Builder,1,L-shaped glass compartment.
+Vertical Connector,Base Piece,Room,,,,,Habitat Builder,1,Vertical base connector.
+Multipurpose Room,Base Piece,Room,,,,,Habitat Builder,1,Basic room.
+Scanner Room,Base Piece,Room,,,,,Habitat Builder,1,Locates resources and wrecks within range.
+Moonpool,Base Piece,Room,,,,,Habitat Builder,1,Vehicle docking bay.
+Observatory,Base Piece,Room,,,,,Habitat Builder,1,Compartment with 360 degree views and low structural integrity.
+Hatch,Base Piece,Wall,,,,,Habitat Builder,1,Provides an access point to the habitat.
+Window,Base Piece,Wall,,,,,Habitat Builder,1,Observatory window.
+Reinforcement,Base Piece,Wall,,,,,Habitat Builder,1,Increases hull strength.
+Solar Panel,Base Piece,Exterior Module,,,,,Habitat Builder,1,Build on the ground in the sun to charge (25 power/min).
+Thermal Plant,Base Piece,Exterior Module,,,,,Habitat Builder,1,Converts heat to energy.
+Power Transmitter,Base Piece,Exterior Module,,,,,Habitat Builder,1,Extends range of power source.
+Floodlight,Base Piece,Exterior Module,,,,,Habitat Builder,1,"Industrial, battery-powered lighting, designed for all environments."
+Spotlight,Base Piece,Exterior Module,,,,,Habitat Builder,1,Fixed lighting solution.
+Exterior Growbed,Base Piece,Exterior Module,,,,24,Habitat Builder,1,"Artificial plant bed, suitable for use on land or in water."
+Base-Attached Air Pump,Base Piece,Exterior Module,,,,,Habitat Builder,1,Base-attached device that pumps air into pipes.  Acts as a starting point for a chain of pipes.
+Ladder,Base Piece,Interior Piece,,,,,Habitat Builder,1,For connecting two floors.
+Water Filtration Machine,Base Piece,Interior Piece,,,,,Habitat Builder,1,Separates water and salt.
+Bulkhead,Base Piece,Interior Piece,,,,,Habitat Builder,1,Structural support and can stop water flow.
+Vehicle Upgrade Console,Base Piece,Interior Piece,,,,,Habitat Builder,1,Build this in the moonpool to upgrade docked vehicles.
+Bioreactor,Base Piece,Interior Piece,,,,,Habitat Builder,1,Composts organic matter into electrical energy.
+Nuclear Reactor,Base Piece,Interior Piece,,,,,Habitat Builder,1,Processes nuclear reactor rods.
+Alien Containment,Base Piece,Interior Piece,,,,,Habitat Builder,1,Provides optimal conditions for flora and fauna.  Add a hatch to enter.
+Fabricator,Base Piece,Interior Module,,,,,Habitat Builder,1,Basic survival fabricator.  Atomically rearranges raw resources into useful objects.
+Radio,Base Piece,Interior Module,,,,,Habitat Builder,1,Receive short-range communications.
+Medical Kit Fabricator,Base Piece,Interior Module,,,,,Habitat Builder,1,Fabricates a medical kit every 30 minutes.
+Wall Locker,Base Piece,Interior Module,,,,30,Habitat Builder,1,Wall-mounted storage locker.
+Locker,Base Piece,Interior Module,,,,48,Habitat Builder,1,Locks away things you need to store.
+Battery Charger,Base Piece,Interior Module,,,,4,Habitat Builder,1,Can charge up to 4 batteries simultaneously.
+Power Cell Charger,Base Piece,Interior Module,,,,2,Habitat Builder,1,Can charge up to 2 power cells simultaneously.
+Aquarium,Base Piece,Interior Module,,,,8,Habitat Builder,1,Self-sustaining aquatic habitat.
+Modification Station,Base Piece,Interior Module,,,,,Habitat Builder,1,Advanced fabricator for modification of survival equipment.
+Basic Plant Pot,Base Piece,Interior Module,,,,4,Habitat Builder,1,Titanium pot containing synthetic soil.
+Composite Plant Pot,Base Piece,Interior Module,,,,4,Habitat Builder,1,Designed titanium pot containing synthetic soil.
+Chic Plant Pot,Base Piece,Interior Module,,,,4,Habitat Builder,1,Upmarket titanium pot containing synthetic soil.
+Interior Growbed,Base Piece,Interior Module,,,,16,Habitat Builder,1,"Artificial plant bed, suitable for interior use only."
+Plant Shelf,Base Piece,Interior Module,,,,1,Habitat Builder,1,Wall-mounted plant pot.
+Bench,Base Piece,Miscellaneous,,,,,Habitat Builder,1,Simple metal relaxation appliance.  Conserves energy while resting.
+Double Bed,Base Piece,Miscellaneous,,,,,Habitat Builder,1,A double bed.
+Single Bed,Base Piece,Miscellaneous,,,,,Habitat Builder,1,A single bed.
+Desk,Base Piece,Miscellaneous,,,,,Habitat Builder,1,Common starship work desk.
+Swivel Chair,Base Piece,Miscellaneous,,,,,Habitat Builder,1,Turns 360 degrees.
+Office Chair,Base Piece,Miscellaneous,,,,,Habitat Builder,1,Relaxing and confidence building.
+Command Chair,Base Piece,Miscellaneous,,,,,Habitat Builder,1,Commandeering.
+Sign,Base Piece,Miscellaneous,,,,,Habitat Builder,1,Sign post with configurable text.
+Picture Frame,Base Piece,Miscellaneous,,,,,Habitat Builder,1,"Wall-mounted frame, upload desired image from compatible PDA photo galleries."
+Bar Table,Base Piece,Miscellaneous,,,,,Habitat Builder,1,Round glass table.
+Trash Can,Base Piece,Miscellaneous,,,,,Habitat Builder,1,Trash cans.
+Nuclear Waste Disposal,Base Piece,Miscellaneous,,,,,Habitat Builder,1,Used to dispose of nuclear waste.
+Vending Machine,Base Piece,Miscellaneous,,,,,Habitat Builder,1,Vending machine.
+Coffee Machine,Base Piece,Miscellaneous,,,,,Habitat Builder,1,"Synthesizes hydrating, caffeine-free coffee."
+Counter,Base Piece,Miscellaneous,,,,,Habitat Builder,1,Lab counter.
+Wall Planter,Base Piece,Miscellaneous,,,,,Habitat Builder,1,Wall-mounted foliage.  Purely decorational.
+Single Wall Shelf,Base Piece,Miscellaneous,,,,,Habitat Builder,1,Single wall shelf.
+Wall Shelves,Base Piece,Miscellaneous,,,,,Habitat Builder,1,Wall shelves.
+Markiplier Doll,Base Piece,Miscellaneous,,,,,Habitat Builder,1,An unusual doll.
+Brain Coral Sample,Coral Sample,,4,,,,,,
+Coral Tube Sample,Coral Sample,,1,,,,,,Sample containing CaCO3.  Calcium carbonate is a base ingredient for bleach.
+Table Coral Sample,Coral Sample,,1,,,,,,Contains trace precious metals used in computer fabrication.
+Fungal Sample,Coral Sample,,1,,,,,,Indigenous flora.  Contains fungal enzymes.
+Brain Coral,Coral,,,4,,,Growbed,1,
+Giant Coral Tube,Coral,,,,,,,,
+Table Coral,Coral,,,,,,,,
+Tree Mushroom,Coral,,,,,,,,
+Vortex Torpedo,Torpedo,,1,,,,Vehicle Modification Console,2,Generates a localized gravity distortion.  Load this into a vehicle torpedo bay.
+Gas Torpedo,Torpedo,,1,,,,Vehicle Modification Console,2,Releases a cloud of toxic gas.  Load this into a vehicle torpedo bay.
+Camera Drone,Deployable,,1,,,,Scanner Room,1,A controllable camera.
+Arcade Gorge Toy,Placeable,Miscellaneous,1,,,,,,Comforting
+Gray Cap,Placeable,Miscellaneous,1,,,,,,Gray cap.  Incompatible with protective environment suits.
+Blue Cap,Placeable,Miscellaneous,1,,,,,,Blue cap.  Incompatible with protective environment suits.
+Large Sample Flask,Placeable,Lab Equipment,4,,,,,,Useless glass container.
+Small Sample Flask,Placeable,Lab Equipment,1,,,,,,A variation on a useless glass container.
+Cylindrical Sample Flask,Placeable,Lab Equipment,1,,,,,,A particularly useless glass container.
+Electron Microscope,Placeable,Lab Equipment,4,,,,,,Non-functional laboratory equipment.
+Fluid Analyzer,Placeable,Lab Equipment,4,,,,,,Non-functional laboratory equipment.
+Sample Analyzer,Placeable,Lab Equipment,4,,,,,,Non-functional laboratory equipment.
+Carry-all,Placeable,Miscellaneous,4,,,9,,,Common bag for transporting personal items.
+Aurora Poster,Placeable,Poster,1,,,,,,Aurora poster.
+Natural Selection 2 Poster,Placeable,Poster,1,,,,,,Natural Selection poster.
+Keep Calm Poster,Placeable,Poster,1,,,,,,Keep Calm poster.
+Prawn Suit Poster - Land,Placeable,Poster,1,,,,,,Prawn Suit poster - land.
+Prawn Suit Poster - Sea,Placeable,Poster,1,,,,,,Prawn Suit poster - sea.
+Aurora Miniature,Placeable,Miscellaneous,1,,,,,,This ship model looks familiar.
+Toy Car,Placeable,Miscellaneous,4,,,,,,Toy car.
+Neptune Escape Rocket,Vehicle,Neptune Escape Rocket,,,,,Neptune Launch Platform,1,"Single-seat planetary escape vehicle with life support, adaptive power supply, orbital shield and onboard time capsule.  Three-stage launch separation."
