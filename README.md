@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# REQUIREMENTS
 
-Things you may want to cover:
+- Ruby 2.6.4
+- Rails 6.0.0
+- PostgreSQL 9.6
+- Yarn (run ```brew install yarn``` to get this if you dont have it)
 
-* Ruby version
+# SETUP
 
-* System dependencies
+Clone the repo and in the console:
 
-* Configuration
+1. run ```bundle install``` to install the gems
+2. run ```yarn add bootstrap popper.js jquery``` 
+3. run ```rails webpack:install``` and say no when you are asked if you would like to overwrite environment.js
+4. run ```rails db:create```, ```rails db:migrate```, ```rails db:seed``` to setup the database and add the source data
+5. run ```rspec``` to run the unit tests
+6. run ```rails s``` to start up the dev server
 
-* Database creation
+# SOURCE DATA
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+CSV files in lib/seeds.
