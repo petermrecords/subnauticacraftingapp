@@ -9,6 +9,8 @@ class Material < ApplicationRecord
   has_many :byproducts_of, class_name: "Byproduct", foreign_key: :byproduct_id
   has_many :byproduct_materials, through: :byproducts, source: :byproduct
   has_many :byproduct_of_materials, through: :byproducts_of, source: :material
+  has_many :list_materials
+  has_many :lists, through: :list_materials, source: :listable, source_type: "List"
 
   # validations
   validates :material_name, presence: true, uniqueness: true

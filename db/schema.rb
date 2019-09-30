@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_28_170704) do
+ActiveRecord::Schema.define(version: 2019_09_30_153105) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -48,6 +48,18 @@ ActiveRecord::Schema.define(version: 2019_09_28_170704) do
     t.datetime "updated_at", precision: 6, null: false
     t.index ["list_id"], name: "index_list_harvestables_on_list_id"
     t.index ["list_id"], name: "ux_list_harvestable", unique: true
+  end
+
+  create_table "list_materials", force: :cascade do |t|
+    t.string "listable_type", null: false
+    t.bigint "listable_id", null: false
+    t.bigint "material_id", null: false
+    t.integer "number_desired", default: 1, null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["listable_id", "listable_type", "material_id"], name: "ux_list_materials", unique: true
+    t.index ["listable_type", "listable_id"], name: "index_list_materials_on_listable_type_and_listable_id"
+    t.index ["material_id"], name: "index_list_materials_on_material_id"
   end
 
   create_table "lists", force: :cascade do |t|
@@ -93,5 +105,6 @@ ActiveRecord::Schema.define(version: 2019_09_28_170704) do
   add_foreign_key "byproducts", "materials", column: "byproduct_id"
   add_foreign_key "list_carryables", "lists"
   add_foreign_key "list_harvestables", "lists"
+  add_foreign_key "list_materials", "materials"
   add_foreign_key "lists", "users"
 end
