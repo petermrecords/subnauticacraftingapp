@@ -19,6 +19,11 @@ RSpec.describe List, type: :model do
   	expect(@list.user).to equal(@user)
   end
 
+  it "is deleted when its owner deletes their account" do
+    @user.destroy
+    expect(List.all.empty?).to eq(true)
+  end
+
   context "attached to a carryable version" do
   	before(:each) do
   		@listcarryable = ListCarryable.create(list: @list)
@@ -27,6 +32,11 @@ RSpec.describe List, type: :model do
   	it "returns a single carryable version of itself" do
   		expect(@list.list_carryable).to equal(@listcarryable)
   	end
+
+    it "deletes the carryable version of itself when it is deleted" do
+      @list.destroy
+      expect(ListCarryable.all.empty?).to eq(true)
+    end
   end
 
   context "attached to a harvestable version" do
@@ -37,5 +47,10 @@ RSpec.describe List, type: :model do
   	it "returns a single harvestable version of itself" do
   		expect(@list.list_harvestable).to equal(@listharvestable)
   	end
+
+    it "deletes the harvestable version of itself when it is deleted" do
+      @list.destroy
+      expect(ListHarvestable.all.empty?).to eq(true)
+    end
   end
 end
