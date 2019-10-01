@@ -6,25 +6,69 @@ RSpec.describe List, type: :model do
   	@list = List.create(user: @user, list_name: "Test List")
   end
 
-  it "is valid so long as it has a user and a name" do
-  	expect(@list.valid?).to eq(true)
+  context "minimum requirements" do
+    it "can be created with just a user and a name" do
+    	expect(List.first).to eq(@list)
+    end
+
+    it "can have some notes about itself" do
+    	@list.list_notes = "Some bullshit text to test this feature"
+    	expect(@list.list_notes).not_to eq(nil)
+    end
+
+    it "is invalid without any materials after it has been created" do
+      @list.valid?
+      expect(@list.errors[:list_materials]).not_to eq([])
+    end
   end
 
-  it "can have some notes about itself" do
-  	@list.list_notes = "Some bullshit text to test this feature"
-  	expect(@list.list_notes).not_to eq(nil)
+  context "owned by a user" do
+    it "returns its owner" do
+      expect(@list.user).to equal(@user)
+    end
+
+    it "is deleted when its owner deletes their account" do
+      @user.destroy
+      expect(List.all.empty?).to eq(true)
+    end
+  end
+  
+  context "interacts with materials" do
+    before(:each) do
+      @material = Material.create({
+        material_name: "Listed Material",
+        material_type: "Test Type"
+      })
+      @list.list_materials.create(material: @material, number_desired: 1)
+    end
+
+    it "is valid so long as it includes an owner, a name and one material" do
+      expect(@list.valid?).to eq(true)
+    end
+
+    it "can have more than one material and return the whole set" do
+      @material2 = Material.create({
+        material_name: "Test Material II",
+        material_type: "Test Type"
+      })
+      @list.list_materials.create(listable: @list, material: @material2, number_desired: 1)
+      expect(@list.materials).to include(@material, @material2)
+    end
+
+    it "returns the number of a given material desired when that material is included" do
+      expect(@list.how_many_of(@material)).to eq(1)
+    end
+
+    it "returns 0 when a given material is not included on the list" do
+      @material2 = Material.create({
+        material_name: "Test Material II",
+        material_type: "Test Type"
+      })
+      expect(@list.how_many_of(@material2)).to eq(0)
+    end
   end
 
-  it "returns its owner" do
-  	expect(@list.user).to equal(@user)
-  end
-
-  it "is deleted when its owner deletes their account" do
-    @user.destroy
-    expect(List.all.empty?).to eq(true)
-  end
-
-  context "attached to a carryable version" do
+  context "has a carryable version of itself" do
   	before(:each) do
   		@listcarryable = ListCarryable.create(list: @list)
   	end
@@ -39,7 +83,7 @@ RSpec.describe List, type: :model do
     end
   end
 
-  context "attached to a harvestable version" do
+  context "has a harvestable version of itself" do
   	before(:each) do
   		@listharvestable = ListHarvestable.create(list: @list)
   	end

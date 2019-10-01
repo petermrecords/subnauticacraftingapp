@@ -49,7 +49,7 @@ RSpec.describe Byproduct, type: :model do
   end
 
   it "is not valid if it produces a negative quantity of byproduct" do
-    @byproduct.number_produced = -1
+    @byproduct.number_produced = -(rand(9999) + 1)
     @byproduct.valid?
     expect(@byproduct.errors[:number_produced]).not_to eq([])
   end

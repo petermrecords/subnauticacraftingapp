@@ -11,7 +11,9 @@ class Material < ApplicationRecord
   has_many :byproduct_of_materials, through: :byproducts_of, source: :material
   has_many :list_materials
   has_many :lists, through: :list_materials, source: :listable, source_type: "List"
-
+  has_many :harvestable_lists, through: :list_materials, source: :listable, source_type: "ListHarvestable"
+  has_many :carryable_lists, through: :list_materials, source: :listable, source_type: "ListCarryable"
+  
   # validations
   validates :material_name, presence: true, uniqueness: true
   validates :material_type, presence: true

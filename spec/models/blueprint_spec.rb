@@ -49,7 +49,7 @@ RSpec.describe Blueprint, type: :model do
   end
 
   it "is invalid if it requires a negative number of materials" do
-    @blueprint.number_required = -1
+    @blueprint.number_required = -rand(9999)
     @blueprint.valid?
     expect(@blueprint.errors[:number_required]).not_to eq([])
   end
