@@ -4,7 +4,9 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
-  has_many :lists, dependent: :delete_all
+  has_many :lists, dependent: :destroy
   has_many :list_harvestables, through: :lists
   has_many :list_carryables, through: :lists
+
+  validates :password, presence: true, length: { minimum: 6 }
 end

@@ -4,12 +4,12 @@ RSpec.describe ListCarryable, type: :model do
   before(:each) do
   	@user = User.create(email: "abcd1234@emails.com", password: "abcd1234")
   	@list = List.create(user: @user, list_name: "Test List")
-  	@listcarryable = ListCarryable.create(list: @list)
+    @listcarryable = @list.list_carryable
   end
 
   context "minimum requirements" do
     it "can be created with just a related list" do
-      expect(ListHarvestable.first).to eq (@listharvestable)
+      expect(ListCarryable.first).to eq (@listcarryable)
     end
 
     it "is not valid without a list" do
@@ -47,7 +47,7 @@ RSpec.describe ListCarryable, type: :model do
         material_type: "Test Type",
         inventory_spaces: rand(9999) + 1
       })
-      @listcarryable.list_materials.create(material: @material, number_desired: rand(9999) + 1)
+      @listcarryable.list_materials.create(material: @material, number_desired: 1)
     end
 
     it "is valid with an associated list and one material" do

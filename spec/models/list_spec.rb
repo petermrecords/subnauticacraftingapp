@@ -69,12 +69,8 @@ RSpec.describe List, type: :model do
   end
 
   context "has a carryable version of itself" do
-  	before(:each) do
-  		@listcarryable = ListCarryable.create(list: @list)
-  	end
-
-  	it "returns a single carryable version of itself" do
-  		expect(@list.list_carryable).to equal(@listcarryable)
+  	it "returns a single carryable version of itself, autocreated when it is created" do
+  		expect(@list.list_carryable).to be_a(ListCarryable)
   	end
 
     it "deletes the carryable version of itself when it is deleted" do
@@ -84,12 +80,8 @@ RSpec.describe List, type: :model do
   end
 
   context "has a harvestable version of itself" do
-  	before(:each) do
-  		@listharvestable = ListHarvestable.create(list: @list)
-  	end
-
-  	it "returns a single harvestable version of itself" do
-  		expect(@list.list_harvestable).to equal(@listharvestable)
+  	it "returns a single harvestable version of itself, autocreated when it is created" do
+  		expect(@list.list_harvestable).to be_a(ListHarvestable)
   	end
 
     it "deletes the harvestable version of itself when it is deleted" do

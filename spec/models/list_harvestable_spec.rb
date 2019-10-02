@@ -4,7 +4,7 @@ RSpec.describe ListHarvestable, type: :model do
   before(:each) do
   	@user = User.create(email: "abcd1234@emails.com", password: "abcd1234")
   	@list = List.create(user: @user, list_name: "Test List")
-  	@listharvestable = ListHarvestable.create(list: @list)
+  	@listharvestable = @list.list_harvestable
   end
 
   context "minimum requirements" do
@@ -47,7 +47,7 @@ RSpec.describe ListHarvestable, type: :model do
         material_name: "Listed Material",
         material_type: "Test Type"
       })
-      @listharvestable.list_materials.create(material: @material, number_desired: rand(9999) + 1)
+      @listharvestable.list_materials.create(material: @material, number_desired: 1)
     end
 
     it "is valid with an associated list and one material" do
