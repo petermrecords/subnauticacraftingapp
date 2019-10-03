@@ -1,0 +1,5 @@
+<% if resource.errors[attribute].any? %>
+  <small class="form-text text-danger"><%= resource.errors[attribute].first %></small>
+<% elsif help_text %>
+  <small class="form-text text-muted"><%= help_text %></small>
+<% end %>

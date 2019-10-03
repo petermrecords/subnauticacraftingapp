@@ -4,12 +4,12 @@
       <h2 class="text-center">Log In</h2>
       <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
         <div class="form-group">
-          <%= f.label :email %><br />
-          <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control" %>
+          <%= f.label :email %>
+          <%= f.email_field :email, autofocus: true, autocomplete: "email", class: validated_form_class(resource, :email) %>
         </div>
         <div class="form-group">
-          <%= f.label :password %><br />
-          <%= f.password_field :password, autocomplete: "current-password", class: "form-control" %>
+          <%= f.label :password %>
+          <%= f.password_field :password, autocomplete: "current-password", class: validated_form_class(resource, :password) %>
         </div>
         <% if devise_mapping.rememberable? %>
           <div class="form-group form-check">
