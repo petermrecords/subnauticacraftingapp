@@ -20,7 +20,10 @@
         </fieldset>
         <%= f.submit "Sign Up", class: "btn btn-primary btn-block" %>
       <% end %>
-      <%= render "devise/shared/links" %>
     </div>
   </div>
+<% end %>
+
+<% content_for :footer do %>
+  <%= render "devise/shared/links" %>
 <% end %>

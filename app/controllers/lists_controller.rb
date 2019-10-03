@@ -8,8 +8,6 @@ class ListsController < ApplicationController
 
 	def create
 		@list = List.new(list_params)
-		# create the carryable
-		# create the harvestable
 		# validate and save it all
 	end
 
