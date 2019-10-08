@@ -12,7 +12,7 @@ class ListMaterial < ApplicationRecord
   # behaviors
   def split_to_components
     material.blueprints.map do |blueprint|
-      ListMaterial.new(material: blueprint.material_required, number_desired: self.number_desired * blueprint.number_required)
+      ListMaterial.new(listable: listable, material: blueprint.material_required, number_desired: self.number_desired * blueprint.number_required)
     end
   end
 end

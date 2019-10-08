@@ -6,6 +6,8 @@ class List < ApplicationRecord
 	belongs_to :user
 	has_one :list_harvestable, dependent: :destroy
 	has_one :list_carryable, dependent: :destroy
+  has_many :list_materials, as: :listable, dependent: :destroy
+  has_many :materials, through: :list_materials
 
 	# validations
 	validates :user, presence: true
@@ -14,15 +16,17 @@ class List < ApplicationRecord
   # callbacks
   after_create :generate_versions
 
-  def populate_carryable(list_materials)
+  def populate_carryable(list_materials = self.list_materials.to_a)
     # add the carryables
     list_materials.select { |m| m.material.carryable? }.map do |list_material|
       if !list_carryable.list_materials.find_by(material: list_material.material)
         # add if its not there
-        list_carryable.list_materials.build(material: list_material.material, number_desired: list_material.number_desired)
+        list_carryable.list_materials.create(material: list_material.material, number_desired: list_material.number_desired)
       else
         # add the quantity to the existing record if it is there
-        list_carryable.list_materials.find_by(material: list_material.material).number_desired += list_material.number_desired
+        lm = list_carryable.list_materials.find_by(material: list_material.material)
+        lm.number_desired += list_material.number_desired
+        lm.save
       end
     end
     bad = list_materials.select { |m| !m.material.carryable? }
@@ -35,15 +39,17 @@ class List < ApplicationRecord
     end
   end
 
-  def populate_harvestable(list_materials)
-    list_materials.select { |m| m.material.harvestable? }.map do |list_material|
+  def populate_harvestable(list_materials = self.list_materials.to_a)
+    list_materials.select { |m| !m.material.craftable? }.map do |list_material|
       if !list_harvestable.list_materials.find_by(material: list_material.material)
-        list_harvestable.list_materials.build(material: list_material.material, number_desired: list_material.number_desired)
+        list_harvestable.list_materials.create(material: list_material.material, number_desired: list_material.number_desired)
       else
-        list_harvestable.list_materials.find_by(material: list_material.material).number_desired += list_material.number_desired
+        lm = list_harvestable.list_materials.find_by(material: list_material.material)
+        lm.number_desired += list_material.number_desired
+        lm.save
       end
     end
-    bad = list_materials.select { |m| !m.material.harvestable? }
+    bad = list_materials.select { |m| m.material.craftable? }
     if bad.empty?
       return list_harvestable
     else

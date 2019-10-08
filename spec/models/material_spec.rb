@@ -175,6 +175,15 @@ RSpec.describe Material, type: :model do
       })
     end
 
+    it "is craftable if it has an associated blueprint" do
+      expect(@material.craftable?).to eq(true)
+    end
+
+    it "is not craftable if it is Titanium even if it has a blueprint" do
+      @material.material_name = "Titanium"
+      expect(@material.craftable?).to eq(false)
+    end
+
     it "is invalid with a number produced if it can't be crafted" do
       @material2.number_produced = rand(9999) + 1
       @material2.valid?

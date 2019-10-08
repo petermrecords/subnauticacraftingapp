@@ -33,7 +33,7 @@ class Material < ApplicationRecord
   end
 
   def craftable?
-    !materials_required.empty?
+    !materials_required.empty? && material_name != "Titanium"
   end
 
   def marine_growbed_spaces
