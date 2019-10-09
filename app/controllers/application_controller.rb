@@ -1,5 +1,13 @@
 class ApplicationController < ActionController::Base
+  before_action do
+    :authenticate_user!
+    @user ||= current_user
+  end
   def index
-    render html: '<h1>Hello world</h1>', layout: 'application'
+    if @user
+      redirect_to user_lists_path(@user)
+    else
+      redirect_to new_user_session_path
+    end
   end
 end

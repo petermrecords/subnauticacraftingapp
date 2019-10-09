@@ -1,8 +1,4 @@
 class ListsController < ApplicationController
-	before_action do
-		@user ||= current_user
-	end
-
 	def index
 		@lists = List.where(user: @user).order(:created)
 	end
