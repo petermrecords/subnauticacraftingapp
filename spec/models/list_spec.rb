@@ -123,25 +123,25 @@ RSpec.describe List, type: :model do
     end
 
     it "includes harvestable materials in its generic version in its harvestable version" do
-      @list.populate_harvestable
+      @list.refresh_harvestable
       @list_harvestable = List.first.list_harvestable
       expect(@list_harvestable.materials).to include(@material2)
     end
 
     it "does not include non-harvestable materials in its generic version in its harvestable version" do
-      @list.populate_harvestable
+      @list.refresh_harvestable
       @list_harvestable = List.first.list_harvestable
       expect(@list_harvestable.materials).not_to include(@material)
     end
 
     it "adds to the quantity of a material already in the harvestable version when one of the materials in the generic version is crafted from it" do
-      @list.populate_harvestable
+      @list.refresh_harvestable
       @list_harvestable = List.first.list_harvestable
       expect(@list_harvestable.list_materials.find_by(material: @material2).number_desired).to eq(3)
     end
 
     it "adds new materials to the harvestable version when non-harvestable materials in the generic version are crafted from them" do
-      @list.populate_harvestable
+      @list.refresh_harvestable
       @list_harvestable = List.first.list_harvestable
       expect(@list_harvestable.materials).to include(@material3)
     end
@@ -159,14 +159,14 @@ RSpec.describe List, type: :model do
       end
 
       it "goes 2 levels deep for havestable materials if it has to" do
-        @list.populate_harvestable
+        @list.refresh_harvestable
         @list_harvestable = List.first.list_harvestable
         expect(@list_harvestable.materials).to include(@material4)
       end
 
 
       it "does not include craftable materials that are required for other craftable materials in the generic version" do
-        @list.populate_harvestable
+        @list.refresh_harvestable
         @list_harvestable = List.first.list_harvestable
         expect(@list_harvestable.materials).not_to include(@material3)
       end
@@ -180,7 +180,7 @@ RSpec.describe List, type: :model do
           material_required: @material5,
           number_required: 1
         })
-        @list.populate_harvestable
+        @list.refresh_harvestable
         @list_harvestable = List.first.list_harvestable
         expect(@list_harvestable.materials).to include(@material5)
       end
@@ -222,25 +222,25 @@ RSpec.describe List, type: :model do
     end
 
     it "includes carryable materials in the generic version in the carryable version" do
-      @list.populate_carryable
+      @list.refresh_carryable
       @list_carryable = List.first.list_carryable
       expect(@list_carryable.materials).to include(@material2)
     end
 
     it "does not include non-carryable materials in the generic version in the carryable version" do
-      @list.populate_carryable
+      @list.refresh_carryable
       @list_carryable = List.first.list_carryable
       expect(@list_carryable.materials).not_to include(@material)
     end
 
     it "adds to the quantity of a carryable material already in the carryable list if it is required for a non-carryable item in the generic version" do
-      @list.populate_carryable
+      @list.refresh_carryable
       @list_carryable = List.first.list_carryable
       expect(@list_carryable.list_materials.find_by(material: @material2).number_desired).to eq(2)
     end
 
     it "adds materials required to build non-carryable materials in the generic version to the carryable version" do
-      @list.populate_carryable
+      @list.refresh_carryable
       @list_carryable = List.first.list_carryable
       expect(@list_carryable.materials).to include(@material3)
     end
@@ -248,7 +248,7 @@ RSpec.describe List, type: :model do
     it "does not add child materials to the carryable list if the parent material is carryable" do
       @material.inventory_spaces = 7
       @material.save
-      @list.populate_carryable
+      @list.refresh_carryable
       @list_carryable = List.first.list_carryable
       expect(@list_carryable.materials).not_to include(@material3)
     end
@@ -256,7 +256,7 @@ RSpec.describe List, type: :model do
     it "does add materials that are crafted to the carryable list if they are carryable" do
       @material.inventory_spaces = 7
       @material.save
-      @list.populate_carryable
+      @list.refresh_carryable
       @list_carryable = List.first.list_carryable
       expect(@list_carryable.materials).to include(@material)
     end
@@ -277,13 +277,13 @@ RSpec.describe List, type: :model do
       end
 
       it "goes 2 levels deep for carryable materials if it has to" do
-        @list.populate_carryable
+        @list.refresh_carryable
         @list_carryable = List.first.list_carryable
         expect(@list_carryable.materials).to include(@material4)
       end
 
       it "does not include non-carryable materials that are required for other non-carryable materials" do
-        @list.populate_carryable
+        @list.refresh_carryable
         @list_carryable = List.first.list_carryable
         expect(@list_carryable.materials).not_to include(@material3)
       end
@@ -300,7 +300,7 @@ RSpec.describe List, type: :model do
         })
         @material4.inventory_spaces = nil
         @material4.save
-        @list.populate_carryable
+        @list.refresh_carryable
         @list_carryable = List.first.list_carryable
         expect(@list_carryable.materials).to include(@material5)
       end

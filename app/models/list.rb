@@ -16,6 +16,36 @@ class List < ApplicationRecord
   # callbacks
   after_create :generate_versions
 
+  # behavior
+  
+  def refresh_harvestable
+    list_harvestable.list_materials.destroy_all
+    populate_harvestable
+  end
+
+  def refresh_carryable
+    list_carryable.list_materials.destroy_all
+    populate_carryable
+  end
+
+  def update_with_versions(list_params)
+    transaction do
+      update(list_params)
+      save
+      if list_params[:list_materials]
+        refresh_carryable
+        refresh_harvestable
+      end
+    end
+  end
+
+  private
+
+  def generate_versions
+    ListCarryable.create(list: self)
+    ListHarvestable.create(list: self)
+  end
+
   def populate_carryable(list_materials = self.list_materials.to_a)
     # add the carryables
     list_materials.select { |m| m.material.carryable? }.map do |list_material|
@@ -55,12 +85,5 @@ class List < ApplicationRecord
     else
       populate_harvestable(bad.map { |list_material| list_material.split_to_components }.flatten)
     end
-  end
-
-  private
-
-  def generate_versions
-    ListCarryable.create(list: self)
-    ListHarvestable.create(list: self)
   end
 end

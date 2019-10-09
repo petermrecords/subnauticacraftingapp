@@ -4,11 +4,13 @@ class ListsController < ApplicationController
 	end
 
 	def index
+		@lists = List.where(user: @user).order(:created)
 	end
 
 	def create
 		@list = List.new(list_params)
-		# validate and save it all
+		@list.refresh_harvestable
+		@list.refresh_carryable
 	end
 
 	def new
@@ -16,18 +18,17 @@ class ListsController < ApplicationController
 	end
 
 	def edit
-		@list = List.find(params[:list_id])
+		@list = List.find_by(id: params[:list_id], user: @user)
 	end
 
 	def show
-		@list = List.find(params[:list_id])
+		@list = List.find_by(id: params[:list_id], user: @user)
 	end
 
 	def update
-		@list = List.find(params[:list_id])
-		# update the list
-		# recalc the carryable if the materials have changed
-		# recalc the harvestable if the materials have changed
+		@list = List.find_by(params[:list_id], user: @user)
+		@list.update_with_versions(list_params)
+		redirect_to user_list_path(@user, @list)
 	end
 
 	def destroy
@@ -39,6 +40,6 @@ class ListsController < ApplicationController
 
 	private
 	def list_params
-		params.require(:list).permit(:list_name, :list_notes)
+		params.require(:list).permit(:list_name, :list_notes, :list_materials)
 	end
 end
