@@ -1,0 +1,3 @@
+<% material_select.each do |material_type, materials| %>
+  <%= render partial: "materials/select_section", locals: { material_type: material_type, materials: materials } %>
+<% end %>

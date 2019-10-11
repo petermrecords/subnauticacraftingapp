@@ -28,6 +28,10 @@ class Material < ApplicationRecord
   scope :relevant_to_crafting, -> { where("inventory_spaces IS NOT NULL OR growbed_spaces IS NOT NULL OR material_type IN ('Base Piece','Placeable','Vehicle')") }
 
   # behaviors
+  def to_s
+    material_name
+  end
+
   def carryable?
     !!inventory_spaces
   end
@@ -50,6 +54,31 @@ class Material < ApplicationRecord
 
   def requires_indoor_space?
     material_type = "Base Piece" && ["Interior Module","Interior Piece","Miscellaneous"].include?(material_subtype)
+  end
+
+  def self.material_types
+    find_by_sql("SELECT DISTINCT material_type FROM materials ORDER BY 1;")
+  end
+
+  def self.material_types_select
+    material_types.map { |material_type| [material_type.material_type, material_type.material_type] }
+  end
+
+  def self.materials_select(type=nil)
+    selbox = {}
+    if type
+      mats = where(material_type: type).order(:material_name)
+    else
+      mats = all.order(:material_type, :material_name)
+    end
+    mats.map do |material|
+      if selbox[material.material_type]
+        selbox[material.material_type] << material
+      else
+        selbox[material.material_type] = [material]
+      end
+    end
+    selbox
   end
 
   private

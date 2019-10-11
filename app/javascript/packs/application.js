@@ -14,5 +14,32 @@ require("channels")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(na/me, true)
 
+// bootstrap
 import 'bootstrap'
 import '../stylesheets/application'
+// jquery
+import $ from 'jquery';
+global.$ = jQuery;
+// select2
+import 'select2';
+import 'select2/dist/css/select2.css';
+import '@ttskch/select2-bootstrap4-theme/dist/select2-bootstrap4.css'
+
+$(document).ready(function() {
+  
+  // materials list filtering
+  $("#add-materials").on("change", "#material-type-select", function() {
+    var selectedType = this.value;
+    var listId = $("#list_material_listable_id").val();
+    $.ajax({
+      url: "/materials/select",
+      method: "GET",
+      data: { material_type: selectedType, list: listId }
+    });
+  });
+
+  $("#list_material_material").select2({
+    theme: 'bootstrap4'
+  });
+
+});

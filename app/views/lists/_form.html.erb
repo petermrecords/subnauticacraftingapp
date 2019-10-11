@@ -1,0 +1,14 @@
+<%= form_for(@list, url: maint_path(@user, @list), method: :post) do |f| %>
+  <h4>Update Information</h4>
+  <fieldset class="form-group">
+    <%= f.label :list_name %>
+    <%= f.text_field :list_name, class: validated_form_class(@list, :list_name) %>
+    <%= error_for(@list, :list_name, "Required.") %>
+  </fieldset>
+  <fieldset class="form-group">
+    <%= f.label :list_notes %>
+    <%= f.text_area :list_notes, class: validated_form_class(@list, :list_notes) %>
+    <%= error_for(@list, :list_notes) %>
+  </fieldset>
+  <%= f.submit "Update", class: "btn btn-block btn-secondary" %>
+<% end %>

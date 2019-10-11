@@ -14,21 +14,24 @@ class ListsController < ApplicationController
 	end
 
 	def edit
-		@list = List.find_by(id: params[:list_id], user: @user)
+		@list = List.find_by(id: params[:id], user: @user)
+		@list_material = ListMaterial.new
+		@material_type_select = Material.material_types_select
+    @material_select = Material.materials_select
 	end
 
 	def show
-		@list = List.find_by(id: params[:list_id], user: @user)
+		@list = List.find_by(id: params[:id], user: @user)
 	end
 
 	def update
-		@list = List.find_by(params[:list_id], user: @user)
+		@list = List.find_by(params[:id], user: @user)
 		@list.update_with_versions(list_params)
 		redirect_to user_list_path(@user, @list)
 	end
 
 	def destroy
-		@list = List.find(params[:list_id])
+		@list = List.find(params[:id])
 		if @list.destroy
 			redirect_to user_lists_path(@user)
 		end

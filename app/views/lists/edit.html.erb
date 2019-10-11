@@ -1,0 +1,26 @@
+<% content_for :navbar do %>
+  <%= render partial: "application/navbar" %>
+<% end %>
+
+<% content_for :page do %>
+  <h2 class="text-center">List Editor</h2>
+  <div class="row">
+    <div class="col-3" id="list-info">
+      <%= render partial: "lists/form" %>
+    </div>
+    <div class= "col-6" id="add-materials">
+      <%= render partial: "list_materials/form" %>
+    </div>
+    <div class="col-3" id="current-materials">
+      <h4>Current Materials</h4>
+      <ul>
+        <%= render @list.list_materials %>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <p><%= button_to "Finished", user_list_path(@user, @list), method: :get, class: "btn btn-block btn-primary" %></p>
+    </div>
+  </div>
+<% end %>

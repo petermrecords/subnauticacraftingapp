@@ -1,0 +1,23 @@
+<%= form_for(@list_material, url: list_list_materials_path(@list), method: :post) do |f| %>
+  <h4>Add Materials</h4>
+  <%= f.hidden_field :listable_id, value: @list.id %>
+  <%= f.hidden_field :listable_type, value: "List" %>
+  <fieldset class="form-group">
+    <label>Material Type</label>
+    <select class="form-control" id="material-type-select">
+      <%= options_for_select(@material_type_select) %>
+    </select>
+    <small class="form-text text-muted">Choose one to filter the materials.</small>
+  </fieldset>
+  <div class="row">
+    <fieldset class="form-group col-8" id="material-select">
+      <%= f.select :material do %>
+        <%= render partial: "materials/select", locals: { material_select: @material_select } %>
+      <% end %>
+    </fieldset>
+    <fieldset class="form-group col-4">
+      <%= f.number_field :number_desired, class: "form-control", placeholder: "#" %>
+    </fieldset>
+  </div>
+  <%= f.submit "Update", class: "btn btn-block btn-secondary" %>
+<% end %>
